@@ -1,4 +1,6 @@
 * {
+    margin: 0;
+    padding: 0;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
@@ -6,31 +8,23 @@ body {
     background-color: grey;
 }
 header {
-    /* width: 100%; */
     background-color: yellow;
-    align-items: center;
+    position: fixed;
 }
 
 footer {
     background-color: yellow;
 }
 
-ul{
-    justify-content: space-around;
-
+li {
+    display: inline;
+    padding: 0px 20px;
 }
 
-#content {
-    list-style-type: none;
-    display: flex;
-    padding: 15px;
-    /* justify-content: right; */
-    width: 300px;
+nav {
+    text-align: right;
 }
 
-#id {
-    
-}
 
 .titlebar {
 
